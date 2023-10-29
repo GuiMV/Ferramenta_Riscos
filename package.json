@@ -1,0 +1,20 @@
+{
+  "name": "ferramenta_dados",
+  "version": "1.0.0",
+  "description": "Ferramenta para análize de Riscos",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Ferramenta_Riscos"
+  },
+  "author": "GuiMV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
