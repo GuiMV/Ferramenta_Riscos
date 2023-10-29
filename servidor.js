@@ -6,6 +6,7 @@ const express = require('express');
 const app = express();
 //Porta do localhost
 const porta = 3000;
+const host = '0.0.0.0';
 //Importando o modulo handlebars
 //const handlebars = require('express-handlebars');
 //Importando o modulo body-parser
@@ -110,8 +111,9 @@ app.use(express.static(path.join(__dirname + "/src/css")));
             res.send("Este risco não existe!")
         })
     })
-*/
+
 //Inicializando o servidor
 app.listen(porta, () => {
     console.log(`Servidor foi iniciado! Acesso: http://localhost:${porta}`)
-})
+})*/
+app.listen(porta, host)
